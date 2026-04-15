@@ -33,10 +33,27 @@
 //  console.log("++a =",++a);
 
 // logical operators
-let a=5;
-let b=3;
-let cond1 =a<b;
-let cond2=b===3;
-console.log(cond1&&cond2);
-console.log(cond1||cond2);
+// let a=5;
+// let b=3;
+// let cond1 =a<b;
+// let cond2=b===3;
+// console.log(cond1&&cond2);
+// console.log(cond1||cond2);
 
+// conditional statements
+// let mode="dark";
+// let color;
+// if(mode==="dark"){
+//     console.log("dark");
+// }
+// if(mode==="light"){
+//     console.log("light")
+// }
+
+let mode="light";
+let color;
+if(mode==="dark"){
+    console.log("dark");
+}else{
+    console.log("light")
+}
