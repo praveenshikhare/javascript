@@ -65,15 +65,21 @@
 //     console.log(num,"is not multiple of 5");
 // }
 
-let marks=prompt("enter marks");
-if(marks>=80){
-    console.log("grade A");
-}else if(marks>=70){
-    console.log("grade B");
-}else if(marks>=60){
-    console.log("grade C");
-}else if(marks>=50){
-    console.log("grade D");
-}else{
-    console.log("FAIL")
+// let marks=prompt("enter marks");
+// if(marks>=80){
+//     console.log("grade A");
+// }else if(marks>=70){
+//     console.log("grade B");
+// }else if(marks>=60){
+//     console.log("grade C");
+// }else if(marks>=50){
+//     console.log("grade D");
+// }else{
+//     console.log("FAIL")
+// }
+
+// loops
+;
+for(let i=0;i<10; i++){
+    console.log("apnacollege",i);
 }
