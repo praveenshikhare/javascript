@@ -50,10 +50,30 @@
 //     console.log("light")
 // }
 
-let mode="light";
-let color;
-if(mode==="dark"){
-    console.log("dark");
+// let mode="light";
+// let color;
+// if(mode==="dark"){
+//     console.log("dark");
+// }else{
+//     console.log("light")
+// }
+
+// let num =prompt("enter a number");
+// if(num%5===0){
+//     console.log(num,"is multiple of 5");
+// }else{
+//     console.log(num,"is not multiple of 5");
+// }
+
+let marks=prompt("enter marks");
+if(marks>=80){
+    console.log("grade A");
+}else if(marks>=70){
+    console.log("grade B");
+}else if(marks>=60){
+    console.log("grade C");
+}else if(marks>=50){
+    console.log("grade D");
 }else{
-    console.log("light")
+    console.log("FAIL")
 }
