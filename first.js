@@ -79,7 +79,22 @@
 // }
 
 // loops
-;
-for(let i=0;i<10; i++){
-    console.log("apnacollege",i);
+
+// for(let i=0;i<10; i++){
+//     console.log("apnacollege",i);
+// }
+
+// print all the even numbers 0 to 100
+//  for(let i=0;i<=100;i++){
+//      if(i%2===0){
+//          console.log(i);
+//     }
+// }
+
+let gameNum=18;
+let userNum=prompt("enter a number");
+while(userNum!=gameNum){
+    userNum=prompt("you enterd wronge number! please enter number again");
+
 }
+console.log("congratulations you guessed the correct number ");
