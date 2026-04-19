@@ -91,10 +91,106 @@
 //     }
 // }
 
-let gameNum=18;
-let userNum=prompt("enter a number");
-while(userNum!=gameNum){
-    userNum=prompt("you enterd wronge number! please enter number again");
+// let gameNum=18;
+// let userNum=prompt("enter a number");
+// while(userNum!=gameNum){
+//     userNum=prompt("you enterd wronge number! please enter number again");
 
+// }
+// console.log("congratulations you guessed the correct number ");
+// let fullName=prompt("enter your full name");
+
+// console.log("@"+fullName.concat(fullName.length));
+
+// let marks=[85,97,44,37,76,60];
+// let sum=0;
+// for (let mark of marks){
+//     sum+=mark;
+//     avg=sum/marks.length;
+    
+// }
+// console.log(avg);
+
+// let items=[250,645,300,900,50];
+// let i=0;
+// for(let item of items){
+//     let offer=item/10;
+//     items[i]=items[i]-offer;
+//     console.log(items[i]);
+//     i++;
+// }
+// let companies=["blooming","microsoft","uber","google","IBM","netflix"];
+// console.log(companies.shift());
+// console.log(companies.splice(2,1,"ola"));
+// console.log(companies.push("Amazon"));
+
+// functions
+// function countVowels(str){
+//     let vowels="shwetapatil";
+//     let count=0;
+//     for(let char of vowels){
+//         if(char==="a"|| char==="e"||char==="i"||char==="o"||char==="u"){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+// const countVowels=(str)=>{
+//     let count=0;
+//     let vowels="praveenshikhare";
+//     for(let char of vowels){
+//          if(char==="a"|| char==="e"||char==="i"||char==="o"||char==="u"){
+
+//              count++;
+        
+//     }
+// } 
+// console.log(count);
+// }
+// let arr=["praveen","shweta"];
+// arr.forEach((val)=>{
+//     console.log(val);
+// });
+// let arr=[3,4,2,10,5];
+// arr.forEach((val,index,arr)=>{
+//     console.log(val*val,index,arr);
+// });
+// let arr=[2,4,6,8];
+// let newArr=arr.map((val)=>{
+//     return val*3;
+// });
+// console.log(newArr);
+
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let newArr=arr.filter((val)=>{
+//     return val%2===0;
+// });
+// console.log(newArr);
+// let arr=[3,5,2,7,119,120];
+// let newArr=arr.reduce((prev,curr)=>{
+//     return prev>curr?prev:curr;
+// });
+// console.log(newArr);
+
+// let arr=[89,91,83,99,97,56];
+// let newArr=arr.filter((val)=>{
+//     return val>=90;   
+// });
+// console.log(newArr);
+let n=prompt("enter a number");
+let arr=[];
+for(let i=1; i<=n;i++){
+    arr[i-1]=i;  
 }
-console.log("congratulations you guessed the correct number ");
+console.log(arr);
+let newArr=arr.reduce((prev,curr)=>{
+    return prev+curr;
+})
+console.log(newArr);
+let NewArr=arr.reduce((prev,curr)=>{
+    return prev*curr;
+})
+console.log(NewArr);
+
+
+
