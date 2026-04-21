@@ -177,20 +177,27 @@
 //     return val>=90;   
 // });
 // console.log(newArr);
-let n=prompt("enter a number");
-let arr=[];
-for(let i=1; i<=n;i++){
-    arr[i-1]=i;  
-}
-console.log(arr);
-let newArr=arr.reduce((prev,curr)=>{
-    return prev+curr;
-})
-console.log(newArr);
-let NewArr=arr.reduce((prev,curr)=>{
-    return prev*curr;
-})
-console.log(NewArr);
-
+// let n=prompt("enter a number");
+// let arr=[];
+// for(let i=1; i<=n;i++){
+//     arr[i-1]=i;  
+// }
+// console.log(arr);
+// let newArr=arr.reduce((prev,curr)=>{
+//     return prev+curr;
+// })
+// console.log(newArr);
+// let NewArr=arr.reduce((prev,curr)=>{
+//     return prev*curr;
+// })
+// console.log(NewArr);
+ let divs=document.querySelectorAll(".box");
+ console.log(divs);
+ let idx=1;
+ for(let div of divs){
+    div.innerText=`new unique value${idx}`;
+    
+    idx++;
+ }
 
 
