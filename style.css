@@ -1,8 +1,13 @@
-.box{
+/* .box{
     height: 100px;
     width: 100px;
     border: 1px solid black;
     background-color: chartreuse;
     margin: 10px;
     text-align: center;
-}
+} */
+ button{
+    color: white;
+    background-color: red;
+
+ }

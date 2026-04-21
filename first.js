@@ -191,13 +191,14 @@
 //     return prev*curr;
 // })
 // console.log(NewArr);
- let divs=document.querySelectorAll(".box");
- console.log(divs);
- let idx=1;
- for(let div of divs){
-    div.innerText=`new unique value${idx}`;
+//  let divs=document.querySelectorAll(".box");
+//  console.log(divs);
+//  let idx=1;
+//  for(let div of divs){
+//     div.innerText=`new unique value${idx}`;
     
-    idx++;
- }
+//     idx++;
+//  }
+
 
 
