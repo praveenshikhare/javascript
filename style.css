@@ -6,8 +6,9 @@
     margin: 10px;
     text-align: center;
 } */
- button{
-    color: white;
-    background-color: red;
-
- }
+.content{
+    color: red;
+}
+.myclass{
+    background-color: chartreuse;
+}

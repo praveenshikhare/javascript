@@ -199,6 +199,13 @@
     
 //     idx++;
 //  }
+// let newbtn=document.querySelector("button");
+// newbtn.style.backgroundColor="red";
+// newbtn.style.color="white";
+let para=document.querySelector("p");
+para.classList.add("myclass")
+
+
 
 
 
