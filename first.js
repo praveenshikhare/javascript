@@ -202,8 +202,24 @@
 // let newbtn=document.querySelector("button");
 // newbtn.style.backgroundColor="red";
 // newbtn.style.color="white";
-let para=document.querySelector("p");
-para.classList.add("myclass")
+// let para=document.querySelector("p");
+// para.classList.add("myclass")
+
+let changemode=document.querySelector("#btn");
+let currMode="light";
+changemode.addEventListener("click", ()=>{
+    if(currMode==="light"){
+        currMode="dark";
+        document.querySelector("body").style.backgroundColor="black";
+
+    }else{
+        currMode="light";
+        document.querySelector("body").style.backgroundColor="white";
+    }
+    console.log(currMode);
+
+})
+
 
 
 
