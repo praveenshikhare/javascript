@@ -205,20 +205,33 @@
 // let para=document.querySelector("p");
 // para.classList.add("myclass")
 
-let changemode=document.querySelector("#btn");
-let currMode="light";
-changemode.addEventListener("click", ()=>{
-    if(currMode==="light"){
-        currMode="dark";
+// let changemode=document.querySelector("#btn");
+// let currMode="light";
+// changemode.addEventListener("click", ()=>{
+//     if(currMode==="light"){
+//         currMode="dark";
+//         document.querySelector("body").style.backgroundColor="black";
+
+//     }else{
+//         currMode="light";
+//         document.querySelector("body").style.backgroundColor="white";
+//     }
+//     console.log(currMode);
+
+// });
+let mode=document.querySelector("div");
+let changemode="light";
+mode.addEventListener("mouseover",()=>{
+    if(changemode==="light"){
+        changemode="dark";
         document.querySelector("body").style.backgroundColor="black";
-
     }else{
-        currMode="light";
+        changemode="light";
         document.querySelector("body").style.backgroundColor="white";
-    }
-    console.log(currMode);
 
-})
+    }
+    console.log(changemode);
+});
 
 
 
