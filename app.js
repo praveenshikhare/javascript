@@ -40,24 +40,31 @@
 //     }   
 // }
 // let praveenobj =new engineer("praveen");
-let data="secrete imformation";
-class user{
-    constructor(name, email){
-        this.name=name;
-        this.email=email;
-    }
-    viewData(){
-        console.log("data",data)
-    }
-}
-class admin extends user{
-    editData(){
-        console.log("new data");
-    };
-    constructor(name,email){
-        super(name, email);
-    }
-}
-let student1=new user("praveen","praveen@example.com");
-let student2=new user("shweta","shweta@example.com");
-let admin1=new admin("admin","admin@example.com");
+// function getData(dataId,getNextData){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             // console.log("data",dataId);
+//         reject("error");
+//         if(getNextData){
+//             getNextData();
+//         }
+
+//         },5000);
+
+//     })
+// } 
+const getPromise=()=>{
+    return new Promise((resolve,reject)=>{
+        console.log("promise created");
+        reject("error");
+    });
+};
+let promise=getPromise();
+promise.then(()=>{
+    console.log("promise fullfiled");
+});
+promise.catch(()=>{
+    console.log("promise rejected");
+})
+
+
